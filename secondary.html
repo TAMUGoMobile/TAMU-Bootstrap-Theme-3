@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+
+	<title>Welcome to Sample Department</title>
+	<meta content="TITLE OF PAGE GOES HERE" name="title"/>
+	<meta content="AUTHOR OF PAGE GOES HERE" name="author"/>
+	<meta content="KEYWORDS, CAN, BE, SEPERATED, WITH, COMMAS" name="keywords"/>
+	<meta content="DESCRIPTION OF PAGE GOES HERE" name="description"/>
+	
+	<meta content="SAME TITLE GOES HERE" name="DC.Title"/>
+	<meta content="SAME AUTHOR GOES HERE" name="DC.Creator"/>
+	<meta content="SAME, KEYWORDS, GO, HERE" name="DC.Subject.Keyword"/>
+	<meta content="SAME DESCRIPTION GOES HERE" name="DC.Description"/>
+
+	<style type="text/css" media="all">@import url("css/global.css");</style>
+	<style type="text/css" media="print">@import url("css/print.css");</style>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tamustyle.js"></script>
+</head>
+<body>
+	<div id="page" class="container page with-navigation">
+		<!-- This section is only displayed below desktop resolutions -->
+		<div id="header_mobile" class="visible-phone">
+			<a href="http://mysite.tamu.edu/" title="Home" rel="home" id="logo"><img src="images/header_mobile.png" alt="Home"></a>
+		</div>
+		<div id="header" class="hidden-phone">
+			<div id="header_left">
+				<a href="http://mysite.tamu.edu/" title="Home" rel="home" id="logo"><img src="images/spacer.gif" alt="Home"></a>
+			</div>
+			<div id="header_right">
+				<a href="http://www.tamu.edu/" title="Texas A and M University"><img src="images/spacer.gif" alt="Texas A and M University"></a>
+			</div>
+		</div>
+
+		<div id="homepage">
+			<div id="homepage_upper">
+				<!-- This division contains the links and the rotator -->
+				<div class="row">
+					<div class="span4">
+						<div class="floating">
+							<!-- Menu Button for Desktop View Only -->
+							<div class="reveal container">
+								<a class="btn btn-inverse">Menu</a>
+							</div>
+							<form id="primary-search" class="form-search">
+								<label>Search</label> <input type="text" class="input-medium search-query">
+							</form>
+							<div class="view" style="display:none">
+							<ul id="primary" class="links">
+								<!-- These links go above the rotator in mobile views, so keep them to a minimum or look into implementing dropdowns -->
+								<li><a href="#">Test Link 1</a></li>
+								<li><a href="#">Test Link 2</a></li>
+								<li><a href="#">Test Link 3</a></li>
+								<li><a href="#">Test Link 4</a></li>
+								<li><a href="#">Test Link 5</a></li>
+							</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="homepage_lower">
+				<div class="row">
+					<!-- This bottom half is composed of 12 columns, the default has 3 columns that are 4 wide (span4). This can be adjusted but always
+					make sure the spans add up to 12 (i.e. 2 span6) -->
+					<div id="panel_left" class="span12">
+						<div id="panel_left_inner">
+							<div class="floating">
+								<h2>Secondary Page Header</h2>
+
+								<h3>Subsection A</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eu lectus mauris, in porta dui. Proin tristique, nibh quis aliquet convallis, massa justo imperdiet enim, at consectetur justo eros vel nibh. Praesent ut eros sem. Vestibulum mauris est, cursus et aliquet nec, porta non lectus. Fusce a justo at leo rhoncus sollicitudin. Mauris tristique orci neque. Cras molestie augue nisl, et egestas felis. Nunc justo lectus, pretium sed rutrum vitae, fermentum vel elit. Quisque lobortis ligula vel felis sagittis consectetur. Aliquam vitae ipsum nisl. Praesent ut arcu et nibh malesuada laoreet non eu ante.</p>
+
+								<h3>Subsection B</h3>
+								<p>Fusce turpis nunc, blandit vel egestas sodales, laoreet eget ante. Cras eu lacus id lacus semper pretium eget at metus. Sed quis rhoncus sapien. Pellentesque fermentum mauris a ipsum euismod pulvinar. Maecenas ac est tellus, eu tristique diam. Suspendisse a leo erat. Ut scelerisque magna et nunc iaculis semper rutrum dui elementum. Nulla egestas gravida metus, lacinia feugiat nibh molestie ut.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Make sure these links redirect to the correct places -->
+		<div id="footer">
+			<div class="region region-footer">
+				<p>
+					<a href="http://www.tamu.edu/" title="Texas A&amp;M University">Texas A&amp;M University</a> &#149 
+					<a href="#" title="Site Policies">Site Policies</a> &#149 
+					<a href="#" title="Webmaster">Webmaster</a> &#149 
+					<a href="#" title="Site Map">Site Map</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

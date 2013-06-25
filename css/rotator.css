@@ -1,0 +1,13 @@
+/**
+ * Homepage Rotator CSS
+ */
+
+#homepage_rotator_area {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.homepage_rotator_outer,
+.homepage_rotator {
+	/*height: 300px;*/
+	text-align: center;
+}
